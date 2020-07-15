@@ -34,4 +34,4 @@ def get_name(name):
 
 @app.route('/hello')
 def index():
-    return "Hello from index method!\n"
+    return "Hello, this is a new index method!\n"
