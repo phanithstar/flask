@@ -31,3 +31,7 @@ def hello():
 @app.route('/name/<name>')
 def get_name(name):
     return "Hello ," + name + " from " + mode + "\n"
+
+@app.route('/hello')
+def index():
+    return "Hello from index method!"
